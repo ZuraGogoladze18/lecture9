@@ -1,0 +1,24 @@
+@media (max-width:834px) {
+    /* header */
+    header{
+        max-width: 834px;
+        width: 100%;
+        margin: auto;
+        padding: 4px 46px;
+    }
+    /* section  */
+    .section1{
+        max-width: 834px;
+        width: 100%;
+        margin: auto;
+        padding: 129px;
+}
+    .heade_span{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .nav-a{
+          font-size: 12px;
+        font-weight: 300;
+    }
+}

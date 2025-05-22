@@ -1,0 +1,42 @@
+@media (max-width:365px) {
+    .menu-a{
+        display: block;
+    }
+    /* header */
+    header{
+         max-width: 365px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 18px;
+    }
+    .ul-li{
+        display: none;
+    }
+    .heade_span{
+        font-size: 10px;
+        font-weight: 100;
+    }
+    .nav-a{
+          font-size: 9px;
+        font-weight: 100;
+    }
+    /* section  */
+     .section1{
+    max-width: 365px;
+    width: 100%;
+    margin: auto;
+}
+   .travel-news{
+    width: auto;
+    font-size: 20px;
+    font-weight: 100px;
+   }
+   .book-now{
+    width: auto;
+   font-weight: 100;
+   font-size: 15px;
+}
+}

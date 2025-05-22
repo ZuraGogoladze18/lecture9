@@ -1,0 +1,109 @@
+.container{
+    width: 1440px;
+}
+.menu-a{
+    display: none;
+}
+/* header  */
+header{
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    background-color: #FA793C;
+    padding-block: 6px;
+    padding-inline: 82px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heade_span{
+    margin-left: 13px;
+    width: 123px;
+    height: 28px;
+    color: #FFFFFF;
+    font-family: Pridi;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.nav-a{
+    width: 63px;
+    height: 24px;
+    color: #FFFFFF;
+    font-family: ABeeZee;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-li{
+    margin-inline: 32px;
+}
+/* section  */
+.section1{
+    background-image: url(../image/img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 0;
+    height: 550px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.travel-news{
+    width: auto;
+    height: 75px;
+    color: #FFFFFF;
+    font-family: Kanit;
+    font-weight: 400;
+     font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.book-now{
+    width: 243px;
+    height: 72px;
+    border-radius: 8px;
+    background-color: #FA793C;
+    color: #FFFFFF;
+    font-family: Kanit;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 40px;
+   letter-spacing: 0%;
+   text-align: center;
+}
+@media (max-width:1300px) {
+    
+    /* header  */
+    header{
+        max-width: 1300px;
+        width: 100%;
+        margin: auto;
+    }
+   /* section */
+   .section1{
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+}
+}
